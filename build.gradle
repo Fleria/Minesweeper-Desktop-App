@@ -1,0 +1,11 @@
+plugins {
+    id 'application'
+    id 'org.openjfx.javafxplugin' version '0.0.10'
+}
+
+javafx {
+    version = "16" // Set the JavaFX version
+    modules = [ 'javafx.controls', 'javafx.fxml' ] // Specify the required JavaFX modules
+}
+
+mainClassName = 'minesweeper.Main' // Replace with your actual main class
